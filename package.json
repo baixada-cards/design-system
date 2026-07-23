@@ -25,6 +25,7 @@
     "check:actions": "node scripts/check-actions.mjs",
     "check:brand": "node scripts/check-brand-contract.mjs",
     "lint": "eslint .",
+    "prepare": "pnpm build",
     "test": "pnpm build && node --test tests/*.test.mjs",
     "typecheck": "tsc --noEmit",
     "check": "pnpm check:actions && pnpm check:brand && pnpm lint && pnpm typecheck && pnpm test"

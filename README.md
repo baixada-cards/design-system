@@ -31,10 +31,11 @@ production-ready token and React sources live in `src/`.
 
 ## Use from a consumer
 
-During the migration, consumers pin an exact signed repository commit and
-copy or package the reviewed source surface. Do not depend on moving `main`.
-Registry publication is deliberately disabled until there is a real release
-consumer and an agreed compatibility policy.
+During the migration, consumers pin an exact signed Git repository commit.
+The `prepare` hook builds JavaScript and declarations for Git-based installs;
+CSS stays available through the explicit package exports. Do not depend on
+moving `main`. Registry publication is deliberately disabled until there is a
+real release consumer and an agreed compatibility policy.
 
 The intended import surface is:
 
