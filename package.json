@@ -1,0 +1,56 @@
+{
+  "name": "@baixada-cards/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baixada brand guidance, design tokens, and reusable React marks.",
+  "type": "module",
+  "files": [
+    "dist",
+    "src/brand.css",
+    "src/tokens.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./brand.css": "./src/brand.css",
+    "./tokens.css": "./src/tokens.css"
+  },
+  "sideEffects": [
+    "./src/*.css"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "check:actions": "node scripts/check-actions.mjs",
+    "check:brand": "node scripts/check-brand-contract.mjs",
+    "lint": "eslint .",
+    "test": "pnpm build && node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm check:actions && pnpm check:brand && pnpm lint && pnpm typecheck && pnpm test"
+  },
+  "peerDependencies": {
+    "react": ">=18 <20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^25.5.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.14.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.64.0"
+  },
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=24"
+  },
+  "volta": {
+    "node": "24.12.0",
+    "pnpm": "10.26.2"
+  }
+}

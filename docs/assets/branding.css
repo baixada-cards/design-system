@@ -1,0 +1,228 @@
+/* Branding canvas — inherits Farol Tactile tokens */
+
+.bg-paper {
+  background-color: var(--paper-0);
+  background-image:
+    radial-gradient(circle at 18% 22%, rgba(90,70,40,0.06) 0%, transparent 45%),
+    radial-gradient(circle at 82% 78%, rgba(90,70,40,0.07) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(90,70,40,0.00) 0%, rgba(90,70,40,0.03) 100%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(90,70,40,0.00) 0px,
+      rgba(90,70,40,0.00) 26px,
+      rgba(90,70,40,0.035) 27px
+    );
+}
+.bg-walnut {
+  background-color: var(--wood-2);
+  background-image:
+    repeating-linear-gradient(92deg,
+      rgba(0,0,0,0.00) 0, rgba(0,0,0,0.00) 3px,
+      rgba(0,0,0,0.07) 4px, rgba(0,0,0,0.00) 8px,
+      rgba(0,0,0,0.00) 14px, rgba(0,0,0,0.05) 15px,
+      rgba(0,0,0,0.00) 22px),
+    repeating-linear-gradient(89deg,
+      rgba(120,85,56,0) 0, rgba(120,85,56,0) 40px,
+      rgba(120,85,56,0.08) 42px, rgba(120,85,56,0) 80px),
+    radial-gradient(ellipse 120% 80% at 30% 20%, rgba(120,85,56,0.20) 0%, rgba(120,85,56,0) 60%),
+    radial-gradient(ellipse 100% 60% at 80% 90%, rgba(0,0,0,0.26) 0%, rgba(0,0,0,0) 60%);
+}
+
+/* —— Generic ornaments —— */
+.kicker {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.kicker-light { color: var(--brass-2); }
+
+.rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--ink-2) 20%, var(--ink-2) 80%, transparent);
+  opacity: 0.45;
+}
+.rule-brass {
+  background: linear-gradient(90deg, transparent, var(--brass-1) 20%, var(--brass-1) 80%, transparent);
+  opacity: 0.55;
+}
+
+/* —— Wordmarks —— */
+.wm {
+  font-family: var(--font-serif);
+  color: var(--ink-0);
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  font-weight: 500;
+}
+.wm-italic { font-style: italic; }
+.wm-light { color: var(--paper-0); }
+
+/* Umbrella main lockup */
+.lockup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.lockup-tag {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+/* Brass mark — recurring porch-lamp icon */
+.mark-lamp {
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+}
+
+/* Stamp / seal */
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--ink-1);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-1);
+  background: rgba(255,255,255,0.04);
+}
+
+/* Cards used decoratively */
+.mini-card {
+  width: 70px;
+  height: 100px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, var(--card-0), var(--card-1));
+  position: relative;
+  box-shadow: var(--shadow-card-low);
+  flex-shrink: 0;
+}
+.mini-card::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--card-edge);
+  border-radius: 3px;
+}
+.mini-card-back {
+  background:
+    repeating-linear-gradient(45deg,
+      var(--card-back-a) 0 6px,
+      var(--card-back-b) 6px 12px);
+}
+.mini-card-back::after {
+  border-color: rgba(212,179,106,0.4);
+}
+
+/* Color swatch */
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.swatch-chip {
+  width: 100%;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.18);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+}
+.swatch-name {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--ink-0);
+  letter-spacing: 0.04em;
+}
+.swatch-meta {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 9px;
+  color: var(--ink-2);
+  letter-spacing: 0.02em;
+}
+
+/* Hand-written notes */
+.hand {
+  font-family: var(--font-hand);
+  color: var(--ink-1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+/* Section heading inside artboards */
+.h-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  font-weight: 600;
+}
+.h-title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--ink-0);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+}
+.h-title-italic {
+  font-style: italic;
+}
+
+/* Body */
+.body-text {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-1);
+}
+.body-text strong { color: var(--ink-0); font-weight: 600; }
+
+/* Pinned note (sticky) */
+.pin-note {
+  background: var(--paper-1);
+  padding: 14px 16px;
+  border-left: 2px solid var(--brass-1);
+  font-family: var(--font-hand);
+  font-size: 17px;
+  color: var(--ink-1);
+  line-height: 1.4;
+  box-shadow: var(--shadow-card-low);
+}
+
+/* List with brass dots */
+.list-brass { list-style: none; padding: 0; margin: 0; }
+.list-brass li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 8px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--ink-1);
+  line-height: 1.5;
+}
+.list-brass li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background: var(--brass-1);
+  border-radius: 50%;
+}
+.list-brass li strong { color: var(--ink-0); font-weight: 600; }
