@@ -41,7 +41,7 @@ const A1_Positioning = () => (
     <div style={{ position: 'absolute', bottom: 56, left: 80, right: 80, display: 'flex', gap: 32, alignItems: 'center' }}>
       <div className="rule-brass rule" style={{ flex: 1 }} />
       <div className="hand" style={{ fontSize: 18, color: 'var(--ink-1)', whiteSpace: 'nowrap' }}>
-        warm + scholarly · italian-diaspora south · spanish suits
+        warm + scholarly · card play · spanish suits
       </div>
       <div className="rule-brass rule" style={{ flex: 1 }} />
     </div>
@@ -93,7 +93,7 @@ const A2_UmbrellaPrimary = () => (
         textTransform: 'uppercase',
         color: 'var(--brass-2)'
       }}>
-        a lab for the card games of the south
+        card games and optimal play
       </div>
     </div>
 
@@ -194,7 +194,7 @@ const A3_UmbrellaAlternates = () => (
               Baixada
             </div>
             <div style={{ fontFamily: 'var(--font-sans)', fontSize: 9, fontWeight: 600, letterSpacing: '0.32em', textTransform: 'uppercase', color: 'var(--ink-2)', marginTop: 2 }}>
-              card games · the south
+              card games · optimal play
             </div>
           </div>
         </div>

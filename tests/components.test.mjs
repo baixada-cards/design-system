@@ -14,11 +14,11 @@ import {
 
 test('the master wordmark renders the canonical name and tagline', () => {
   const markup = renderToStaticMarkup(
-    BaixadaWordmark({ tagline: 'a lab for the card games of the south' }),
+    BaixadaWordmark({ tagline: 'card games and optimal play' }),
   )
 
   assert.match(markup, />Baixada</)
-  assert.match(markup, /a lab for the card games of the south/)
+  assert.match(markup, /card games and optimal play/)
   assert.match(markup, /baixada-wordmark/)
 })
 

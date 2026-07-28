@@ -10,6 +10,9 @@ The format for each entry: a heading with the date, a short statement of the dec
 
 **Decision.** The umbrella brand is `Baixada`, kept untranslated. Tagline: *a lab for the card games of the south*.
 
+**Status.** The name remains canonical. The tagline is superseded by the
+2026-07-28 descriptor decision below.
+
 **Alternatives considered.**
 
 - *Sobremesa* — bilingual-friendly, evocative of post-meal lingering.
@@ -20,10 +23,10 @@ The format for each entry: a heading with the date, a short statement of the dec
 
 **Why Baixada won.**
 
-1. It's the only name that's *true* to the project — the farm is actually called this.
+1. It is a real personal proper noun rather than an invented brand name.
 2. Specific Portuguese nouns travel as evocative, not awkward, on portfolios for non-Brazilian audiences.
 3. It scales — a single-word umbrella works for a multi-game family without renaming.
-4. The phrase *"como estão as coisas lá na baixada?"* anchors the brand in a real cultural moment we can build copy around.
+4. The personal origin does not need to become public-facing copy.
 
 **Risks accepted.**
 
@@ -128,6 +131,8 @@ The format for each entry: a heading with the date, a short statement of the dec
 ## 2026-04-28 · Bilingual posture: equal
 
 **Decision.** Portuguese and English are first-class. Strings are translated, not paraphrased. The brand name `Baixada` and the game names `Truco`, `Escopa`, `Bisca` are never translated. The `· Lab` suffix is the same in both languages.
+
+**Status.** Superseded by the 2026-07-28 trilingual decision below.
 
 **Why.** PT for the cultural truth, EN for the portfolio reach. Equality avoids the hierarchy problem (which one is the "default"?).
 
@@ -252,6 +257,29 @@ brand promises, while one related paper family makes play, study, help, and
 reference surfaces feel made together. A shared fallback preserves portability
 without forcing each product or route to invent its own wood. Paper dialogs
 keep dense controls legible and avoid turning the product into generic dark UI.
+
+## 2026-07-28 · Descriptor makes no geographic-origin claim
+
+**Decision.** The umbrella wordmark descriptor is *card games and optimal
+play*. Its canonical translations are *jogos de carta e estratégia ótima*
+(PT-BR) and *juegos de cartas y estrategia óptima* (ES). Public copy does not
+describe the games as “from the south” or the software as “made in the south.”
+English, Brazilian Portuguese, and Spanish are first-class.
+
+**Alternatives considered.**
+
+- Keep *a lab for the card games of the south* as an evocative origin story.
+- Use *card games and counterfactual-regret minimization*, which is precise but
+  too long for the wordmark and too narrow for future games.
+- Remove the descriptor entirely.
+
+**Why this wording won.** Baixada's name carries a real personal association
+with southern Brazil, but Truco and the other games have broader histories,
+and the software is made wherever its author happens to be. The descriptor
+should say what the project contributes—play and study—without converting a
+personal story into a false provenance claim. Spanish is already a supported
+product language and therefore belongs in the brand contract, not as an
+afterthought.
 
 ## Future decisions to record
 
