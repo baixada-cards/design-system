@@ -231,6 +231,28 @@ token or mark change reviewable against its rationale, while one small
 repository avoids artificial package boundaries. Historical canvases remain
 as design evidence; `src/` is the single production API.
 
+## 2026-07-28 · Rich photographic walnut and warm cotton stock are canonical
+
+**Decision.** The approved rich-walnut photograph becomes the canonical table
+material for Baixada products. Product repositories provide an optimized,
+local copy through `--walnut-surface-image`; the design system retains a
+deterministic CSS fallback. Score pads, dialogs, Guide pages, Lab panels, and
+cards move to one warmer cotton-stock family. Functional and transient text is
+Inter; Cormorant remains editorial; Kalam is reserved for actual marginalia.
+
+**Alternatives considered.**
+
+- Keep the synthetic CSS grain on every surface.
+- Apply the photograph only to the live table and leave the Lab and Guide as
+  separate visual systems.
+- Make every overlay dark translucent software chrome.
+
+**Why the material system won.** The richer wood gives the table the depth the
+brand promises, while one related paper family makes play, study, help, and
+reference surfaces feel made together. A shared fallback preserves portability
+without forcing each product or route to invent its own wood. Paper dialogs
+keep dense controls legible and avoid turning the product into generic dark UI.
+
 ## Future decisions to record
 
 When adding a new decision, copy the heading format above. Always include alternatives and the tie-breaker. **Resist the urge to delete superseded decisions.** Mark them as superseded and link to the new entry.
