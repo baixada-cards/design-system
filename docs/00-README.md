@@ -14,7 +14,7 @@ This package is the **single source of truth** for branding decisions on this pr
 | `01-naming.md` | The umbrella name, per-game names, the `· Lab` suffix, and naming rules going forward. |
 | `02-visual-system.md` | Color tokens, typography, ornaments, textures. The Tactile inheritance. |
 | `03-logo-system.md` | Wordmarks, lockups, app icons, do-and-don't usage. |
-| `04-voice-and-tone.md` | How Baixada sounds. PT/EN bilingual conventions. |
+| `04-voice-and-tone.md` | How Baixada sounds. EN/PT-BR/ES language conventions. |
 | `05-applications.md` | Web, mobile, app stores, social, marketing surfaces. |
 | `06-easter-eggs.md` | Family / farm references — what to lean into, what to avoid. |
 | `07-domains-and-routes.md` | URL structure, subdomains, app-store listing names. |
@@ -48,7 +48,15 @@ This package is the **single source of truth** for branding decisions on this pr
 
 ## The one-paragraph version
 
-> **Baixada** is a quiet, scholarly home for traditional card games of the Italian-Brazilian south. It hosts **Truco**, **Escopa**, and **Bisca** as standalone apps under one umbrella, all built on the same Tactile visual language: walnut, cream paper, ochre Spanish-card frames, bordeaux backs, and a single brass accent. The flagship product is **Truco · Lab** — a CFR-solved opponent and a study tool for the equilibria of 1v1 truco paulista. Other games may earn the `· Lab` suffix later; until they do, they ship as plain `Escopa` and `Bisca`. The brand is bilingual (PT/EN) and refuses both gauchesque cliché and corporate game-app gloss.
+> **Baixada** is a quiet, scholarly home for card-game products and tools for
+> studying optimal play. It hosts **Truco**, **Escopa**, and **Bisca** under one
+> umbrella, all built on the same Tactile visual language: walnut, cream paper,
+> ochre Spanish-card frames, bordeaux backs, and a single brass accent. The
+> flagship product is **Truco · Lab** — a CFR-solved opponent and a study tool
+> for the equilibria of 1v1 truco paulista. Other games may earn the `· Lab`
+> suffix later; until they do, they ship as plain `Escopa` and `Bisca`. The
+> brand treats English, Brazilian Portuguese, and Spanish as first-class, and
+> refuses both regional caricature and corporate game-app gloss.
 
 ---
 
@@ -62,4 +70,6 @@ This package is the **single source of truth** for branding decisions on this pr
 
 ## A note on intent
 
-This brand carries a personal weight. The project's author grew up playing these games on a farm referred to as *a baixada*, with extended family of Italian descent in southern Brazil. The brand is meant to honor that — **without** trading on caricature of the place or the people. When in doubt, choose the warmer, quieter option over the louder one.
+This brand carries a personal weight for the project's author, but public copy
+does not explain the name or turn that personal association into a provenance
+claim. When in doubt, choose the warmer, quieter option over the louder one.

@@ -1,8 +1,8 @@
 # Baixada design system
 
 The public source of truth for the visual and verbal identity behind
-[baixada.cards](https://baixada.cards): a quiet, tactile home for traditional
-card games of the Italian-Brazilian south.
+[baixada.cards](https://baixada.cards): a quiet, tactile home for card-game
+products and study tools.
 
 This repository keeps three things together because they evolve as one system:
 

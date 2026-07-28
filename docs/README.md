@@ -12,7 +12,7 @@ Start here:
 - `01-naming.md` — umbrella/game naming rules and the `· Lab` suffix.
 - `02-visual-system.md` — Tactile tokens, typography, textures, and ornaments.
 - `03-logo-system.md` — wordmarks, lockups, app icons, and usage rules.
-- `04-voice-and-tone.md` — editorial/warm copy rules and bilingual posture.
+- `04-voice-and-tone.md` — editorial/warm copy rules and trilingual posture.
 - `05-applications.md` — web, mobile, app-store, social, and print surfaces.
 - `06-easter-eggs.md` — family references, what works, and what to avoid.
 - `07-domains-and-routes.md` — `baixada.cards` URL architecture.

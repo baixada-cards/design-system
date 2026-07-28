@@ -60,7 +60,10 @@ No AI-generated woodcut, no AI-generated farm scenes. Either commission real ill
 
 ### Gauchesque clichés
 
-Chimarrão imagery, bombachas, gaucho hats. Even though the geography is the south, these are the *most expected* visual cues and therefore the least interesting. They also reduce a regional culture to costume.
+Chimarrão imagery, bombachas, gaucho hats. Although the author's personal
+story includes southern Brazil, these are the *most expected* visual cues and
+therefore the least interesting. They also reduce a regional culture to
+costume.
 
 ### Italian-diaspora clichés
 

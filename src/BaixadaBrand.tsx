@@ -200,7 +200,7 @@ export function HandUnderline({
 }
 
 export function BaixadaWordmark({
-  tagline = 'a lab for the card games of the south',
+  tagline = 'card games and optimal play',
   showTagline = true,
   showLamp = false,
   dark = false,
@@ -267,7 +267,7 @@ export function BaixadaHorizontalLockup({ className }: { className?: string }) {
       <PorchLamp size={64} color="var(--brass-0)" glow="var(--brass-1)" />
       <div>
         <div className="baixada-horizontal-lockup__name">Baixada</div>
-        <div className="baixada-horizontal-lockup__label">card games · the south</div>
+        <div className="baixada-horizontal-lockup__label">card games · optimal play</div>
       </div>
     </div>
   )

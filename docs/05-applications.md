@@ -14,7 +14,7 @@ Where the brand actually shows up. Each surface has a default lockup, a default 
 
 **Footer (umbrella).**
 ```
-Baixada · est. 2026 · made in the south
+Baixada · est. 2026
 PorchLamp icon — small, brass-0
 links: about · press · github · contact
 ```
@@ -37,7 +37,7 @@ links: about · press · github · contact
 | **App name (Escopa)** | `Escopa · Baixada` |
 | **Subtitle (Truco)** | `truco paulista, with a lab` |
 | **Subtitle (Escopa)** | `escopa de quinze` |
-| **Description, opening line** | "Baixada makes quiet, considered card-game apps for the games of the south." |
+| **Description, opening line** | "Baixada makes quiet, considered card-game apps and tools for studying optimal play." |
 
 The game name leads on stores; the umbrella follows. This is the inverse of the web; documented in `01-naming.md`.
 
