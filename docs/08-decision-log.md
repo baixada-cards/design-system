@@ -258,6 +258,26 @@ reference surfaces feel made together. A shared fallback preserves portability
 without forcing each product or route to invent its own wood. Paper dialogs
 keep dense controls legible and avoid turning the product into generic dark UI.
 
+## 2026-07-28 · Action rails are separate dark-walnut furniture
+
+**Decision.** Table aprons and action rails use the shared
+`--walnut-rail-image` material: darker, finer, and more regular than the broad
+photographic playing surface. The rail remains walnut-family furniture and
+keeps warm brass edges, but it must read as a mounted control piece rather than
+as another crop of the tabletop.
+
+**Alternatives considered.**
+
+- Reuse the table photograph with a heavier dark overlay.
+- Make the rail a flat near-black utility bar.
+- Introduce a new photographed wood asset for the rail.
+
+**Why fine-grained walnut.** Re-cropping the table photograph erases the
+physical boundary between play and controls, while near-black turns the rail
+into generic software chrome. A deterministic, fine-grained walnut texture
+creates the needed construction joint without adding another image asset or
+leaving the established material family.
+
 ## 2026-07-28 · Descriptor makes no geographic-origin claim
 
 **Decision.** The umbrella wordmark descriptor is *card games and optimal
