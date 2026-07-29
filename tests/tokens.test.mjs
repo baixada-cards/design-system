@@ -18,8 +18,10 @@ test('the canonical material palette stays stable', () => {
   }
 
   assert.match(tokens, /--walnut-surface-image\s*:/)
+  assert.match(tokens, /--walnut-rail-image\s*:/)
   assert.match(tokens, /--paper-surface-image\s*:/)
   assert.match(tokens, /\.walnut\s*\{[^}]*background-image:\s*var\(--walnut-surface-image\)/s)
+  assert.match(tokens, /\.walnut-rail\s*\{[^}]*background-image:\s*var\(--walnut-rail-image\)/s)
 })
 
 test('all four Spanish suit colors remain defined', () => {

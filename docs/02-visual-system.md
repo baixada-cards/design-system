@@ -149,7 +149,7 @@ Numeric data           →  JetBrains Mono 500, tabular-nums
 
 ## Textures
 
-Two are canonical, defined as utility classes in `tokens.css`.
+Three are canonical, defined as utility classes in `tokens.css`.
 
 ### `.walnut`
 
@@ -160,6 +160,14 @@ overriding the complete `--walnut-surface-image` stack. The shared token file
 ships a deterministic CSS grain as a fallback for documentation, tests, and
 products that have not yet adopted the approved asset. Do not assemble
 route-specific wood gradients.
+
+### `.walnut-rail`
+
+Table aprons, action rails, and other control-bearing furniture use a darker,
+fine-grained walnut surface. It is a visibly separate piece from the broad
+photographic playing table: straighter grain, deeper stain, and a restrained
+warm lift near the controls. Use `--walnut-rail-image`; do not crop or darken
+the table photograph to imitate it.
 
 ### `.paper`
 
