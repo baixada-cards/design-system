@@ -16,7 +16,7 @@ This document is the rulebook for the Baixada wordmark, the per-game lockups, an
                 ──── ✶ ────
                   Baixada                 ← Cormorant 500 italic
               ~~~~~~~~~~~~~~              ← brass HandUnderline
-       A LAB FOR THE CARD GAMES OF THE SOUTH   ← Inter 500, tracked
+       CARD GAMES AND OPTIMAL PLAY             ← Inter 500, tracked
 ```
 
 **Minimum size:** 48px cap-height. Below that, switch to the **stamp monogram** (the bordeaux tile with a brass `B`).

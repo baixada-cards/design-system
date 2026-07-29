@@ -5,8 +5,9 @@
 | Surface | Name |
 |---|---|
 | Umbrella brand | **Baixada** |
-| Tagline (EN) | *a lab for the card games of the south* |
-| Tagline (PT) | *um laboratório para os jogos de carta do sul* |
+| Tagline (EN) | *card games and optimal play* |
+| Tagline (PT-BR) | *jogos de carta e estratégia ótima* |
+| Tagline (ES) | *juegos de cartas y estrategia óptima* |
 | Flagship game | **Truco** |
 | Flagship lab/study mode | **Truco · Lab** |
 | Future games | **Escopa**, **Bisca** |
@@ -19,20 +20,22 @@
 
 **Why this name.**
 
-- It is **specific**. *Baixada* (Portuguese for "lowland", but functioning here as a place name) is the family's term for the farm where the games are actually played. The word carries personal truth that no invented name can.
+- It is **specific**. *Baixada* is a Portuguese proper noun with a real,
+  personal association for the author. That association does not need to be
+  explained in public-facing copy.
 - It survives the **portfolio test**. Specific Portuguese nouns ("São Paulo", "Açaí", "Saudade") read as evocative to non-Brazilians, not awkward. We do not need the name to be transparent in English.
 - It is **flexible**. It scales from a single-game launch to a multi-game home without renaming.
-- The phrase **"como estão as coisas lá na baixada?"** is the cultural seed. The product is, in effect, a digital answer to that question.
 
 **Pronunciation guide for non-Brazilian readers.**
 
 > *bye-SHAH-dah* — `/baɪˈʃadɐ/`. Three syllables, stress on the middle.
 
-The brand should never apologize for the pronunciation. A small phonetic gloss in About pages is fine; do not force it into the wordmark.
+The brand should never apologize for the pronunciation. A small phonetic gloss
+in About pages is fine; do not force it into the wordmark or attach an origin
+story to it.
 
 **What "Baixada" means in copy.**
 
-- *the place* — the farm, by metonymy
 - *the home page* — the umbrella site itself
 - *the family of products* — "Baixada is shipping Truco first."
 
@@ -42,18 +45,25 @@ It is **not** a generic word for "card games" or "lobby". When you mean the lobb
 
 ## Tagline
 
-> **EN — a lab for the card games of the south**
-> **PT — um laboratório para os jogos de carta do sul**
+> **EN — card games and optimal play**
+> **PT-BR — jogos de carta e estratégia ótima**
+> **ES — juegos de cartas y estrategia óptima**
 
-The tagline does three things:
+The tagline does two things:
 
-1. Says what we are (a lab — i.e. a study tool, not a casino).
-2. Says what we contain (card games).
-3. Anchors the geography ("the south") without naming a country, leaving room for both Brazil and the broader Hispanic/Lusophone tradition.
+1. Says what the products contain: card games.
+2. Names the distinctive addition: tools for studying optimal play.
+
+It deliberately makes no geographic-origin claim about the games or the
+project. Baixada has a personal history; that history is not a substitute for
+the actual origins of Truco, Escopa, or Bisca, nor for where the software is
+being made.
 
 **Use the tagline only on the umbrella surface** — homepage, social profiles, About, app icons that lock to the umbrella mark. Individual games do **not** carry the tagline; they carry their own subtitles if needed.
 
-**Do not translate it loosely.** If a third language is needed, get it translated by a native speaker; do not paraphrase.
+**Do not translate it loosely.** English, Brazilian Portuguese, and Spanish
+are canonical above. If another language is needed, get it translated by a
+native speaker; do not paraphrase.
 
 ---
 
@@ -93,7 +103,10 @@ A short rulebook for any future product, partnership, or microsite touching the 
 1. **Real game names always win.** If a real card game has a real name, we use it verbatim. We do not invent.
 2. **Suffixes describe modes, not flavors.** `· Lab` means a solver is present. We do not invent suffixes for marketing colors ("Truco · Pro" is forbidden).
 3. **One umbrella name.** We do not invent sub-brands. Everything is `Baixada · X` or `X · Baixada` with the existing inventory.
-4. **Bilingual equality.** When a name has a natural Portuguese form, both PT and EN surfaces use it. We do not anglicize ("Truco" never becomes "Trick"; "Escopa" never becomes "Scopa" even though Italian Scopa is the cognate ancestor).
+4. **Trilingual equality.** English, Brazilian Portuguese, and Spanish are
+   first-class. Game and brand names remain unchanged across them: "Truco"
+   never becomes "Trick", and "Escopa" never becomes "Scopa" even though
+   Italian Scopa is the cognate ancestor.
 5. **No emoji in product names.** Ever.
 6. **No version numbers in user-facing names.** "Truco · Lab v2" is a build number, not a name. Users see "Truco · Lab".
 

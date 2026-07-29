@@ -13,8 +13,8 @@ canvas remains viewable.
 
 Tactile expresses two coexisting moods:
 
-- **The table** — walnut wood, cream paper, ochre-framed Spanish cards. Warm, lit by a single overhead lamp. This is the dominant register; nearly every surface lives here.
-- **The study** — the same room at night, paper notes pinned up under brass desk-light. Same materials, more contrast, hand-written marginalia. This is where `· Lab` lives.
+- **The table** — rich photographic walnut, warm cotton paper, ochre-framed Spanish cards. Lit by a single overhead lamp. This is the dominant register; nearly every surface lives here.
+- **The study** — the same room at night, larger paper sheets and tools under brass desk-light. Same materials, denser information, hand-written marginalia only where a person might genuinely have written a note. This is where `· Lab` lives.
 
 We do not have a separate "dark mode" — the lamp light + walnut already function as a dim register. We do not have a separate "light mode" — the cream paper already functions as a light surface against walnut.
 
@@ -28,33 +28,33 @@ All production values are in `../src/tokens.css` as CSS custom properties.
 
 | Token | Hex | Use |
 |---|---|---|
-| `--wood-0` | `#1f1610` | Deepest shadow under cards, page background at very low light |
-| `--wood-1` | `#2a1e15` | Shadow areas of the walnut texture |
-| `--wood-2` | `#3d2e20` | **Default walnut surface** — page background |
-| `--wood-3` | `#5a4230` | Mid grain, secondary surfaces |
-| `--wood-4` | `#785538` | Highlight grain, never used as a fill |
+| `--wood-0` | `#160d08` | Deepest shadow under cards, page background at very low light |
+| `--wood-1` | `#29160d` | Shadow areas of the walnut texture |
+| `--wood-2` | `#3b210f` | **Default walnut surface** — page background |
+| `--wood-3` | `#70421e` | Mid grain, secondary surfaces |
+| `--wood-4` | `#b4773f` | Highlight grain, never used as a fill |
 
 ### Paper — score pad, lab notes, light surfaces
 
 | Token | Hex | Use |
 |---|---|---|
-| `--paper-0` | `#ede4d0` | **Default cream paper** — light surface fill |
-| `--paper-1` | `#e4d9bf` | Recessed paper areas, sticky-note backgrounds |
-| `--paper-2` | `#d5c7a4` | Paper edge / border on cream surfaces |
-| `--study-stock` | `#e9e7e1` | Neutral card stock for long-form study guides; less yellow than score-pad paper |
-| `--study-stock-edge` | `#cfcdc5` | Edge and rule for study-stock surfaces |
-| `--ink-0` | `#2a241b` | **Primary text on paper** |
-| `--ink-1` | `#4a4032` | Secondary text on paper |
-| `--ink-2` | `#7a6d56` | Tertiary text, kickers, captions |
+| `--paper-0` | `#f3e7cf` | **Default warm cotton paper** — light surface fill |
+| `--paper-1` | `#e8d8b8` | Recessed paper areas, sticky-note backgrounds |
+| `--paper-2` | `#cbb58a` | Paper edge / border on cream surfaces |
+| `--study-stock` | `#eee2cb` | Quiet long-form stock from the same warm-paper family |
+| `--study-stock-edge` | `#c7b28c` | Edge and rule for study-stock surfaces |
+| `--ink-0` | `#2e2115` | **Primary text on paper** |
+| `--ink-1` | `#57432b` | Secondary text on paper |
+| `--ink-2` | `#80694b` | Tertiary text, kickers, captions |
 
 ### Card — the Spanish-deck card itself
 
 | Token | Hex | Use |
 |---|---|---|
-| `--card-0` | `#f6edd7` | Card face top |
-| `--card-1` | `#ede2c3` | Card face bottom (gradient) |
-| `--card-edge` | `#c8a040` | **The signature ochre frame** |
-| `--card-edge-deep` | `#9a7a2e` | Embossed shadow on the frame |
+| `--card-0` | `#f8eedb` | Card face top |
+| `--card-1` | `#e8d7b5` | Card face bottom (gradient) |
+| `--card-edge` | `#b98738` | **The signature ochre frame** |
+| `--card-edge-deep` | `#8d6628` | Embossed shadow on the frame |
 | `--card-back-a` | `#5a2a26` | **Bordeaux card-back base** |
 | `--card-back-b` | `#3a1a18` | Bordeaux card-back deep |
 
@@ -149,15 +149,32 @@ Numeric data           →  JetBrains Mono 500, tabular-nums
 
 ## Textures
 
-Two are canonical, defined as utility classes in `tokens.css`.
+Three are canonical, defined as utility classes in `tokens.css`.
 
 ### `.walnut`
 
-A layered repeating-linear-gradient + radial-gradient stack that produces the walnut grain. Used on every "table" surface. Do not replace with an image; the CSS version is crisp at any zoom and theme-stable.
+The canonical production surface is rich, photographic walnut: dark horizontal
+grain, warm lamp falloff, enough tonal restraint for cards and paper to remain
+legible. Product repositories provide an approved, optimized local asset by
+overriding the complete `--walnut-surface-image` stack. The shared token file
+ships a deterministic CSS grain as a fallback for documentation, tests, and
+products that have not yet adopted the approved asset. Do not assemble
+route-specific wood gradients.
+
+### `.walnut-rail`
+
+Table aprons, action rails, and other control-bearing furniture use a darker,
+fine-grained walnut surface. It is a visibly separate piece from the broad
+photographic playing table: straighter grain, deeper stain, and a restrained
+warm lift near the controls. Use `--walnut-rail-image`; do not crop or darken
+the table photograph to imitate it.
 
 ### `.paper`
 
-A subtler stack producing mottled cream with faint horizontal ruling. Used on every "paper" surface — score pad, lab note panels, marketing pages.
+A subtler stack producing warm, mottled cotton stock with faint horizontal
+ruling. Used on every paper surface — score pad, Lab panels, Guide pages,
+dialogs, and help sheets. Cards use the related card-stock tokens rather than
+bright white.
 
 ### Lamp light overlay
 
@@ -168,7 +185,9 @@ Defined as `--lamp` (a radial gradient). Apply as an overlay to walnut surfaces 
 - No noise filters beyond what's already in the textures.
 - No film grain.
 - No skeuomorphic shadow casts beyond `--shadow-card` and `--shadow-card-low`.
-- No glassmorphism, neumorphism, or backdrop-filter blur.
+- No glassmorphism or neumorphism. Backdrop blur is reserved for scrims and
+  compact dark utility chrome; it never replaces walnut or paper as the
+  primary material.
 
 ---
 

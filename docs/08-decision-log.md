@@ -10,6 +10,9 @@ The format for each entry: a heading with the date, a short statement of the dec
 
 **Decision.** The umbrella brand is `Baixada`, kept untranslated. Tagline: *a lab for the card games of the south*.
 
+**Status.** The name remains canonical. The tagline is superseded by the
+2026-07-28 descriptor decision below.
+
 **Alternatives considered.**
 
 - *Sobremesa* — bilingual-friendly, evocative of post-meal lingering.
@@ -20,10 +23,10 @@ The format for each entry: a heading with the date, a short statement of the dec
 
 **Why Baixada won.**
 
-1. It's the only name that's *true* to the project — the farm is actually called this.
+1. It is a real personal proper noun rather than an invented brand name.
 2. Specific Portuguese nouns travel as evocative, not awkward, on portfolios for non-Brazilian audiences.
 3. It scales — a single-word umbrella works for a multi-game family without renaming.
-4. The phrase *"como estão as coisas lá na baixada?"* anchors the brand in a real cultural moment we can build copy around.
+4. The personal origin does not need to become public-facing copy.
 
 **Risks accepted.**
 
@@ -129,6 +132,8 @@ The format for each entry: a heading with the date, a short statement of the dec
 
 **Decision.** Portuguese and English are first-class. Strings are translated, not paraphrased. The brand name `Baixada` and the game names `Truco`, `Escopa`, `Bisca` are never translated. The `· Lab` suffix is the same in both languages.
 
+**Status.** Superseded by the 2026-07-28 trilingual decision below.
+
 **Why.** PT for the cultural truth, EN for the portfolio reach. Equality avoids the hierarchy problem (which one is the "default"?).
 
 ---
@@ -230,6 +235,71 @@ not to its first game. Keeping governance and implementation adjacent makes a
 token or mark change reviewable against its rationale, while one small
 repository avoids artificial package boundaries. Historical canvases remain
 as design evidence; `src/` is the single production API.
+
+## 2026-07-28 · Rich photographic walnut and warm cotton stock are canonical
+
+**Decision.** The approved rich-walnut photograph becomes the canonical table
+material for Baixada products. Product repositories provide an optimized,
+local copy through `--walnut-surface-image`; the design system retains a
+deterministic CSS fallback. Score pads, dialogs, Guide pages, Lab panels, and
+cards move to one warmer cotton-stock family. Functional and transient text is
+Inter; Cormorant remains editorial; Kalam is reserved for actual marginalia.
+
+**Alternatives considered.**
+
+- Keep the synthetic CSS grain on every surface.
+- Apply the photograph only to the live table and leave the Lab and Guide as
+  separate visual systems.
+- Make every overlay dark translucent software chrome.
+
+**Why the material system won.** The richer wood gives the table the depth the
+brand promises, while one related paper family makes play, study, help, and
+reference surfaces feel made together. A shared fallback preserves portability
+without forcing each product or route to invent its own wood. Paper dialogs
+keep dense controls legible and avoid turning the product into generic dark UI.
+
+## 2026-07-28 · Action rails are separate dark-walnut furniture
+
+**Decision.** Table aprons and action rails use the shared
+`--walnut-rail-image` material: darker, finer, and more regular than the broad
+photographic playing surface. The rail remains walnut-family furniture and
+keeps warm brass edges, but it must read as a mounted control piece rather than
+as another crop of the tabletop.
+
+**Alternatives considered.**
+
+- Reuse the table photograph with a heavier dark overlay.
+- Make the rail a flat near-black utility bar.
+- Introduce a new photographed wood asset for the rail.
+
+**Why fine-grained walnut.** Re-cropping the table photograph erases the
+physical boundary between play and controls, while near-black turns the rail
+into generic software chrome. A deterministic, fine-grained walnut texture
+creates the needed construction joint without adding another image asset or
+leaving the established material family.
+
+## 2026-07-28 · Descriptor makes no geographic-origin claim
+
+**Decision.** The umbrella wordmark descriptor is *card games and optimal
+play*. Its canonical translations are *jogos de carta e estratégia ótima*
+(PT-BR) and *juegos de cartas y estrategia óptima* (ES). Public copy does not
+describe the games as “from the south” or the software as “made in the south.”
+English, Brazilian Portuguese, and Spanish are first-class.
+
+**Alternatives considered.**
+
+- Keep *a lab for the card games of the south* as an evocative origin story.
+- Use *card games and counterfactual-regret minimization*, which is precise but
+  too long for the wordmark and too narrow for future games.
+- Remove the descriptor entirely.
+
+**Why this wording won.** Baixada's name carries a real personal association
+with southern Brazil, but Truco and the other games have broader histories,
+and the software is made wherever its author happens to be. The descriptor
+should say what the project contributes—play and study—without converting a
+personal story into a false provenance claim. Spanish is already a supported
+product language and therefore belongs in the brand contract, not as an
+afterthought.
 
 ## Future decisions to record
 

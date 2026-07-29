@@ -19,16 +19,17 @@ The two voices share the same vocabulary. They differ in posture: editorial sits
 5. **The Oxford comma is mandatory** in English. In Portuguese, follow standard usage.
 6. **Numbers under ten are spelled out** in editorial; numerals everywhere else.
 
-## Bilingual conventions
+## Language conventions
 
-The product is bilingual. Strings are translated, not paraphrased.
+English, Brazilian Portuguese, and Spanish are first-class. Strings are
+translated, not paraphrased.
 
-- **Title-case English headings** become **sentence-case Portuguese headings** following PT convention (only the first word and proper nouns are capitalized).
+- **Title-case English headings** become **sentence-case Portuguese and Spanish headings** following their conventions (only the first word and proper nouns are capitalized).
 - **Quotation marks**: `"…"` in English; `« … »` or `"…"` in Portuguese — pick one and stay consistent.
 - **Dates**: ISO short form (`2026-04-28`) in technical contexts; long form locale-correct in editorial.
 - **The brand name "Baixada"** is **never translated**. Not in English, not in Spanish, not in Italian.
 - **Game names "Truco", "Escopa", "Bisca"** are **never translated**. Not even to "Italian Scopa".
-- **The `· Lab` suffix** is the same in both languages. We do not localize it to "Laboratório".
+- **The `· Lab` suffix** is the same in all languages. We do not localize it to "Laboratório" or "Laboratorio".
 
 ## Where the warm voice lives
 
@@ -49,10 +50,13 @@ The product is bilingual. Strings are translated, not paraphrased.
 ## Sample copy
 
 **Homepage hero, EN.**
-> Baixada is a quiet home for the card games of the south. Truco first, with a lab to study optimal play. Escopa and Bisca to follow.
+> A laboratory for heads-up truco paulista.
 
-**Homepage hero, PT.**
-> Baixada é um lugar tranquilo para os jogos de carta do sul. Truco primeiro, com um laboratório para estudar jogadas ótimas. Escopa e Bisca depois.
+**Homepage hero, PT-BR.**
+> Um laboratório de truco paulista para dois.
+
+**Homepage hero, ES.**
+> Un laboratorio de truco paulista mano a mano.
 
 **Lab section heading, EN.**
 > Equilibria, hand by hand.

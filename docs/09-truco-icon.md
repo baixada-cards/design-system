@@ -25,7 +25,11 @@ This doc specifies the Truco icon, the family system it belongs to, and the rule
       └──────────────────────┘
 ```
 
-**Why the 1 de espadas:** in a 40-card Spanish deck, the *1 de espadas* is truco's highest card after the matched manilhas — the most iconic single card in the game. It tells you "this is a Spanish-deck card game played in the south" without a word of copy. It scales — at 16px the numeral disappears and the bordeaux+ochre+espadas-black silhouette still reads as Truco.
+**Why the 1 de espadas:** in a 40-card Spanish deck, the *1 de espadas* is
+truco's highest card after the matched manilhas — the most iconic single card
+in the game. It identifies the Spanish-deck tradition without making a
+geographic-origin claim. It scales — at 16px the numeral disappears and the
+bordeaux+ochre+espadas-black silhouette still reads as Truco.
 
 **The chassis is shared.** Same bordeaux gradient, same diagonal weave, same brass inner frame, same lamp wash as the Baixada `B` monogram tile. **Only the face changes per game.** That kinship is the entire family system.
 
