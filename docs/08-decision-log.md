@@ -236,6 +236,36 @@ token or mark change reviewable against its rationale, while one small
 repository avoids artificial package boundaries. Historical canvases remain
 as design evidence; `src/` is the single production API.
 
+## 2026-07-27 · The field guide is set as a printed book
+
+**Decision.** The Study field guide (`/lab/study/guide`) leaves the "reference
+card" register and adopts a book register. One continuous leaf of study stock
+carries every guide surface; the landing page is front matter (title page,
+printer's ornament, contents with leader lines and roman folios); chapter
+pages carry a running head, a chapter number, a drop cap, and an ink margin
+index instead of a bordeaux navigation slab. Cards, arrow affordances, and
+interior drop shadows are out.
+
+**Alternatives considered.**
+
+- Keep the current card-and-slab layout, fixing only its defects (the
+  masthead's shadow falling across the body seam, the ungrouped rail, and the
+  boxed contents entries).
+- A ledger register: ruled stock, contents as a table, parts as index tabs on
+  the sheet edge.
+
+**Why the book.** The guide is long-form prose read start to finish, not a
+lookup surface; the card grid and hover-arrow affordances read as generic
+product UI rather than as Baixada's study register. The book register gets
+its hierarchy from type and white space alone, which also removes the whole
+class of shadow-and-border tuning the previous layout needed. The ledger
+stays available for a future print/PDF export, where its rule pitch can bind
+to the body leading.
+
+**Costs accepted.** Contents entries lose their teaser lines—a book's
+contents does not carry blurbs. Chapter teaser strings stay in the catalog
+for reuse elsewhere.
+
 ## 2026-07-28 · Rich photographic walnut and warm cotton stock are canonical
 
 **Decision.** The approved rich-walnut photograph becomes the canonical table
